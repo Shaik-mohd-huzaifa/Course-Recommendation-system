@@ -70,4 +70,4 @@ if st.button("Recommend Course"):
     recommended_course = predict_course(profile_text)
 
     course_details = course_ids[recommended_course]
-    st.subheader(f"Recommended Course: \n\n Course Code: {course_details["Course Code"]} \n\n Course Name: {course_details["Course Name"]} \n\n Alias: {course_details["Alias"]} \n\n Price: {course_details["Price"]}")
+    st.subheader(f"Recommended Course: \n\n Course Code: {course_details['Course Code']} \n\n Course Name: {course_details['Course Name']} \n\n Alias: {course_details['Alias']} \n\n Price: {course_details['Price']}")
